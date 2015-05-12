@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		921B78411B0199F800359567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B78401B0199F800359567 /* AppDelegate.swift */; };
-		921B78431B0199F800359567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B78421B0199F800359567 /* ViewController.swift */; };
-		921B78461B0199F800359567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921B78441B0199F800359567 /* Main.storyboard */; };
 		921B78481B0199F800359567 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921B78471B0199F800359567 /* Images.xcassets */; };
 		921B784B1B0199F800359567 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921B78491B0199F800359567 /* LaunchScreen.xib */; };
 		921B78571B0199F800359567 /* miniature_octo_batmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B78561B0199F800359567 /* miniature_octo_batmanTests.swift */; };
+		921B78611B019A1800359567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921B78601B019A1800359567 /* Main.storyboard */; };
+		921B78631B019A1F00359567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B78621B019A1F00359567 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		921B783B1B0199F800359567 /* miniature-octo-batman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "miniature-octo-batman.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		921B783F1B0199F800359567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		921B78401B0199F800359567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		921B78421B0199F800359567 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		921B78451B0199F800359567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		921B78471B0199F800359567 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		921B784A1B0199F800359567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		921B78501B0199F800359567 /* miniature-octo-batmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "miniature-octo-batmanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		921B78551B0199F800359567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		921B78561B0199F800359567 /* miniature_octo_batmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniature_octo_batmanTests.swift; sourceTree = "<group>"; };
+		921B78601B019A1800359567 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		921B78621B019A1F00359567 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				921B78401B0199F800359567 /* AppDelegate.swift */,
-				921B78421B0199F800359567 /* ViewController.swift */,
-				921B78441B0199F800359567 /* Main.storyboard */,
+				921B78621B019A1F00359567 /* ViewController.swift */,
+				921B78601B019A1800359567 /* Main.storyboard */,
 				921B78471B0199F800359567 /* Images.xcassets */,
 				921B78491B0199F800359567 /* LaunchScreen.xib */,
 				921B783E1B0199F800359567 /* Supporting Files */,
@@ -192,7 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				921B78461B0199F800359567 /* Main.storyboard in Resources */,
+				921B78611B019A1800359567 /* Main.storyboard in Resources */,
 				921B784B1B0199F800359567 /* LaunchScreen.xib in Resources */,
 				921B78481B0199F800359567 /* Images.xcassets in Resources */,
 			);
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				921B78431B0199F800359567 /* ViewController.swift in Sources */,
+				921B78631B019A1F00359567 /* ViewController.swift in Sources */,
 				921B78411B0199F800359567 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +236,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		921B78441B0199F800359567 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				921B78451B0199F800359567 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		921B78491B0199F800359567 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
